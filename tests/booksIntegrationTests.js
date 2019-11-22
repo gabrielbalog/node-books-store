@@ -3,7 +3,7 @@ require('should');
 const request = require('supertest');
 const moongose = require('mongoose');
 
-process.env.ENV = 'test';
+process.env.ENV = 'TEST';
 
 const app = require('../app');
 
